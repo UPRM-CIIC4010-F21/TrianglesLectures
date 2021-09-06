@@ -12,15 +12,12 @@ using namespace std;
 
 int main() {    
 
-    cout << "Area 1 is: " << getTriangleArea(10, 10, 10) << endl;
-    cout << "Area 2 is: " << getTriangleArea(20,20,20) << endl;
-    cout << "Area is: " << getTriangleArea(10,20,30) << endl;
-
-    string s1 = "Hello World";
-
-    s1.replace(0, 5, "Goodbye");
-
-
+    Triangle t1(10,10,10);
+    cout << "Area 1 is: " << getTriangleArea(t1) << endl;
+    Triangle t2(20,20,20);
+    cout << "Area 2 is: " << getTriangleArea(t2) << endl;
+    Triangle t3(10,20,30);
+    cout << "Area 3 is: " << getTriangleArea(t3) << endl;
 
     return 0;
   

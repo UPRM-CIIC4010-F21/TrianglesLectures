@@ -2,9 +2,9 @@
 #include <cmath>
 #include "include/triangle.h"
 
-double getTriangleArea (double s1, double s2, double s3) {
-    double s = (s1 + s2 + s3) / 2.0;
-    double area = sqrt(s * (s - s1) * (s - s2) * (s - s3));
+double getTriangleArea (Triangle t) {
+    double s = (t.getSide1() + t.getSide2() + t.getSide3()) / 2.0;
+    double area = sqrt(s * (s - t.getSide1()) * (s - t.getSide2()) * (s - t.getSide3()));
     return area;
 }
 
