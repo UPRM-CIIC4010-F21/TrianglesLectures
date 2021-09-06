@@ -4,7 +4,7 @@
 
 # Compiler settings - Can be customized.
 CC = g++
-CXXFLAGS = -g -std=c++11 -Wall
+CXXFLAGS = -g -std=c++17 -Wall
 LDFLAGS = 
 
 # Makefile settings - Can be customized.
