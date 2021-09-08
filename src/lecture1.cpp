@@ -10,14 +10,14 @@ using namespace std;
 //     return area;
 // }
 
-int main() {    
+int main() {
 
     Triangle t1(10,10,10);
-    cout << "Area 1 is: " << Triangle::getTriangleArea(t1) << endl;
+    cout << "Area 1 is: " << t1.getArea() << endl;
     Triangle t2(20,20,20);
-    cout << "Area 2 is: " << Triangle::getTriangleArea(t2) << endl;
+    cout << "Area 2 is: " << t2.getArea() << endl;
     Triangle t3(10,20,30);
-    cout << "Area 3 is: " << Triangle::getTriangleArea(t3) << endl;
+    cout << "Area 3 is: " << t3.getArea() << endl;
 
     return 0;
   

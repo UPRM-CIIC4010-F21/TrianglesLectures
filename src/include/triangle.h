@@ -23,6 +23,6 @@ public:
         this->s3 = s3;
     }
 
-    static double getTriangleArea (Triangle t);
+    double getArea();
 
 };
