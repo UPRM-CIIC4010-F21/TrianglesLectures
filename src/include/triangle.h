@@ -25,4 +25,6 @@ public:
 
     double getArea();
 
+    static double sumOfAreas(Triangle list[], int size);
+
 };

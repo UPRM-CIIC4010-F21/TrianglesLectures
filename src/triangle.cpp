@@ -8,3 +8,14 @@ double Triangle::getArea () {
     return area;
 }
 
+double Triangle::sumOfAreas(Triangle list[], int size)
+{
+
+    double totalArea = 0;
+    for(int i=0; i<size; i++) {
+        totalArea += list[i].getArea();
+    }
+    return totalArea;
+
+
+}

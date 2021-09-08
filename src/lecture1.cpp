@@ -19,6 +19,11 @@ int main() {
     Triangle t3(10,20,30);
     cout << "Area 3 is: " << t3.getArea() << endl;
 
+
+    Triangle myList[3] { t1, t2, t3 };
+
+    cout << "Total area is: " << Triangle::sumOfAreas(myList, 3) << endl;
+
     return 0;
   
 }
