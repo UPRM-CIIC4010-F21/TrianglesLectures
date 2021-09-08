@@ -1,7 +1,7 @@
 
 class Triangle;
 
-extern double getTriangleArea (Triangle t);
+
 
 class Triangle{
 
@@ -22,5 +22,7 @@ public:
         this->s2 = s2;
         this->s3 = s3;
     }
+
+    static double getTriangleArea (Triangle t);
 
 };

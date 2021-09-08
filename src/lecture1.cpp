@@ -13,11 +13,11 @@ using namespace std;
 int main() {    
 
     Triangle t1(10,10,10);
-    cout << "Area 1 is: " << getTriangleArea(t1) << endl;
+    cout << "Area 1 is: " << Triangle::getTriangleArea(t1) << endl;
     Triangle t2(20,20,20);
-    cout << "Area 2 is: " << getTriangleArea(t2) << endl;
+    cout << "Area 2 is: " << Triangle::getTriangleArea(t2) << endl;
     Triangle t3(10,20,30);
-    cout << "Area 3 is: " << getTriangleArea(t3) << endl;
+    cout << "Area 3 is: " << Triangle::getTriangleArea(t3) << endl;
 
     return 0;
   
