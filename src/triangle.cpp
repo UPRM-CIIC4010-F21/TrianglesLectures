@@ -19,3 +19,16 @@ double Triangle::sumOfAreas(Triangle list[], int size)
 
 
 }
+
+// Returns true iff target Triangle has larger area than t2. Returns false otherwise.
+bool Triangle::isLargerThan(Triangle t2) {
+
+    if (this->getArea() > t2.getArea()) {
+        return true;
+    }
+    else {
+        return false;
+    }
+
+}
+

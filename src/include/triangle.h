@@ -27,4 +27,6 @@ public:
 
     static double sumOfAreas(Triangle list[], int size);
 
+    bool isLargerThan(Triangle t2);
+
 };
