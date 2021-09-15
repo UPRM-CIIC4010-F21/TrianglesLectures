@@ -28,6 +28,9 @@ int main() {
     cout << "T2 is Larger than T1? " << triangle2.isLargerThan(triangle1) << endl;
     cout << "T2 is Larger than T2? " << triangle2.isLargerThan(triangle2) << endl;
 
+    Triangle::resize(triangle1, 2.0);
+    
+
     return 0;
   
 }

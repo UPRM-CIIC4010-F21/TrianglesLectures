@@ -32,3 +32,11 @@ bool Triangle::isLargerThan(Triangle t2) {
 
 }
 
+void Triangle::resize(Triangle &t, double factor) {
+
+    t.s1 *= factor;
+    t.s2 *= factor;
+    t.s3 *= factor;
+
+}
+
