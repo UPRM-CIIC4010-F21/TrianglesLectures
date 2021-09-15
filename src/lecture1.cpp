@@ -30,6 +30,7 @@ int main() {
 
     triangle1.resize(2.0);
     
+    Triangle triangle4 = triangle1.resizeNew(3);
 
     return 0;
   

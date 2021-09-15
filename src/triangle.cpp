@@ -40,3 +40,16 @@ void Triangle::resize(double factor) {
 
 }
 
+void Triangle::resize() {
+
+   this->resize(2.0); 
+
+}
+
+Triangle Triangle::resizeNew(double factor) {
+
+    Triangle result(this->getSide1()*factor, this->getSide2()*factor, this->getSide3()*factor);
+
+    return result;
+
+}
