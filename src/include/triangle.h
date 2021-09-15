@@ -35,6 +35,6 @@ public:
 
     bool isLargerThan(Triangle t2);
 
-    static void resize(Triangle &t, double factor);
+    void resize(double factor);
 
 };
