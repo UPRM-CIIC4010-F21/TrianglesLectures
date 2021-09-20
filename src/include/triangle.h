@@ -11,9 +11,9 @@ private:
     double s3;
 
 public:
-    double getSide1() { return s1; }
-    double getSide2() { return s2; }
-    double getSide3() { return s3; }
+    double getSide1() const { return s1; }
+    double getSide2() const { return s2; }
+    double getSide3() const { return s3; }
 
     void setSides(double l1, double l2, double l3) {
         this->s1 = l1;
@@ -29,7 +29,7 @@ public:
         this->s3 = s3;
     }
 
-    double getArea();
+    double getArea() const;
 
     static double sumOfAreas(Triangle list[], int size);
 
@@ -39,5 +39,7 @@ public:
     void resize();
 
     Triangle resizeNew(double factor);
+
+    int compareAreas(Triangle t) const;
 
 };

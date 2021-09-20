@@ -28,9 +28,13 @@ int main() {
     cout << "T2 is Larger than T1? " << triangle2.isLargerThan(triangle1) << endl;
     cout << "T2 is Larger than T2? " << triangle2.isLargerThan(triangle2) << endl;
 
-    triangle1.resize(2.0);
+    // triangle1.resize(2.0);
     
     Triangle triangle4 = triangle1.resizeNew(3);
+
+    cout << "T1 compare with T2: " << triangle1.compareAreas(triangle2) << endl;
+    cout << "T2 compare with T1: " << triangle2.compareAreas(triangle1) << endl;
+    cout << "T1 compare with T1: " << triangle1.compareAreas(triangle1) << endl;
 
     return 0;
   
